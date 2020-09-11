@@ -1,5 +1,5 @@
 #include <iostream>
-
+int y = 0;
 
 int main()
 {
@@ -11,8 +11,9 @@ int main()
 
 	std::cout << std::endl;
 
-	for (int x = 100; x > 0; x--)
+	for (int x = 100; x >= 0; x--)
 	{
 		std::cout << x << ' ';
 	}
+
 }
